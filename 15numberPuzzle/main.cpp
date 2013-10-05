@@ -4,10 +4,10 @@
   * @date: 27/07/2013
   */
 
-#include <QTGui>
+#include <QtGui>
 #include <QApplication>
 #include "mainwindow.h"
-#include <QTCore>
+#include <QtCore>
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
