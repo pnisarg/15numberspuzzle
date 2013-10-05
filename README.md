@@ -8,7 +8,8 @@ is a sliding puzzle that consists of a frame of numbered square tiles in random 
 Install
 =======
 
-Windows only:
+Windows only
+------------
 download '15num_win' folder.
 Select 15NumberPuzzle.exe to run.
   
