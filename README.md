@@ -9,6 +9,6 @@ Install
 =======
 
 Windows only:
-  download '15num_win' folder.
-  Select 15NumberPuzzle.exe to run.
+download '15num_win' folder.
+Select 15NumberPuzzle.exe to run.
   
