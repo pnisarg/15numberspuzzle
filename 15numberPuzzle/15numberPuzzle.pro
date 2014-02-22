@@ -19,5 +19,4 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui
 
-RESOURCES += \
-    sound.qrc
+RESOURCES +=

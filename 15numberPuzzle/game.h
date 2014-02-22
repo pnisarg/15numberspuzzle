@@ -13,6 +13,7 @@ public:
 
     //Constructors
     game();
+    game(Ui::MainWindow *ui);
 
 
     //Methods

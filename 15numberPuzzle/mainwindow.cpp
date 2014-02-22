@@ -21,6 +21,7 @@ MainWindow::MainWindow(QWidget *parent) :
     gameObj = new game();
     ui->setupUi(this);
     setStyleSheet("QPushButton {background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,stop: 0.5 #DDDDCC, stop: 1.0 #E1E1E1); border-style: outset; border-width: 2px; border-radius: 10px; border-color: beige;}");
+    gameObj->shuffle(ui);
 }
 
 MainWindow::~MainWindow()
@@ -34,7 +35,6 @@ MainWindow::~MainWindow()
 //shuffle logic
 void MainWindow::on_pushButton_clicked()
 {
-
     gameObj->shuffle(ui);
 }
 

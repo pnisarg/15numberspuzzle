@@ -10,6 +10,7 @@
 #include "ui_mainwindow.h"
 #include <QtGui>
 #include<QtCore>
+#include<iostream>
 
 #include <QString>
 game::game()
@@ -17,7 +18,13 @@ game::game()
     count = 0;
     buttonZero = 16;
 }
-
+game::game(Ui::MainWindow *ui)
+{
+    std::cout << "game cons";
+    count = 0;
+    buttonZero = 16;
+    shuffle(ui);
+}
 void game :: display(Ui::MainWindow *ui){
    ui->button_1->setText(QString :: number(board[0][0]));
    ui->button_2->setText(QString :: number(board[0][1]));
@@ -173,6 +180,7 @@ void game :: logic(int num,Ui::MainWindow *ui){
         board[row][col] = 0;
         buttonZero = (row*4)+(col+1);
         count++;
+        ui->label_2->setText( QString :: number(count));
 
         switch((newR*4)+(newC+1)){
         case 1: ui->button_1->show();
