@@ -46,3 +46,7 @@ TODO
 =====
  - More hurdles with more masala.
  - Apply machine learning methodologies.
+ - 
+ 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pnisarg/15numberspuzzle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
